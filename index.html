@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Watch Gallery </title>
+</head>
+
+<body>
+    <!-----------------header----------------->
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <p>Watch Gallery</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li id="cata"><a href="catagory.html">Catagory</a></li>
+                    <li><a href="womenscustom.html" onclick="wOptSelected()">Custom</a></li>
+
+                </ul>
+            </nav>
+            <img src="img/cart.png" width="50px" class="ctn">
+        </div>
+    </header>
+    <!-- ----------------cart------------- -->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        
+        <div class="cart-container">
+
+           
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs0</div>
+        </div>
+        <button class="buy-btn">Buy Now</button>
+        <img src="img/close.png" alt="" srcset="" class="cart-close">
+    </div>
+    
+   
+    <main>
+        
+        <!-- -----------------banner----------------- -->
+        <div class="banner">
+            <img src="img/hand-watch-wallpaper-45000-46162-hd-wallpapers.jpg"  alt="" srcset="">
+        </div>
+        
+        
+        <!-- ------------------ popular----------- -->
+        <div class="popular">
+            <div class="title-cont">
+                <h2>Popular</h2>
+            </div>
+            <div class="pr">
+                <!-- -product-box-- -->
+                <div class="p-cont" >
+                    <div class="card">
+                        <img src="img/featured1.png" alt=""  class="product-img">
+                    </div>
+                    <h3 class="product-title">Hamilton View</h3>
+                    <span class="product-price">Rs 25000</span>
+                    <img src="img/cart.png" width="26px" class="cart-icon">
+                </div>
+                <div class="p-cont p-2">
+                    <div class="card">
+                        <img src="img/featured2.png" alt="" class="product-img">
+                    </div>
+                    <h3 class="product-title">ingersoll</h3>
+                    <span class="product-price">Rs 16000</span>
+                    <img src="img/cart.png" width="26px" class="cart-icon">
+                </div>
+                <div class="p-cont">
+                    <div class="card">
+                        <img src="img/featured3.png" alt="" class="product-img">
+                    </div>
+                    <h3 class="product-title">mido</h3>
+                    <span class="product-price">Rs 10000</span>
+                    <img src="img/cart.png" width="26px" class="cart-icon">
+                </div>
+            </div>
+            
+        </div>
+        <!-- ------------------new arrival------------- -->
+        <div class="new-arrival">
+            <div class="title-cont">
+                <h2>New Arrival</h2>
+            </div>
+            <div class="pr">
+                <div class="p-cont">
+                    <div class="card">
+                        <img src="img\new1.png" alt="watch  1" class="product-img">
+                    </div>
+                    <h3 class="product-title">Longiness</h3>
+                    <span class="product-price">Rs13500</span>
+                    <img src="img/cart.png" width="26px" class="cart-icon">
+                </div>
+                <div class="p-cont">
+                    <div class="card">
+                        <img src="img\new2.png" alt="watch2" class="product-img">
+                    </div>
+                    <h3 class="product-title">Hamilton classic</h3>
+                    <span class="product-price">Rs11500</span>
+                    <img src="img/cart.png" width="26px" class="cart-icon">
+                </div>
+                <div class="p-cont">
+                    <div class="card">
+                        <img src="img\new3.png" alt="watch 3" class="product-img">
+                    </div>
+                    <h3 class="product-title">Dreyfuss Alink</h3>
+                    <span class="product-price">Rs30500</span>
+                    <img src="img/cart.png" width="26px" class="cart-icon">
+                </div>
+                
+            </div>
+            
+        </div>   
+    </main>
+    <hr id="footer-hr">
+    <footer>
+        <div class="foot-cont">
+            Copyright © 2023
+        </div>
+    </footer>
+</body>
+<!-- ---------------js link---------- -->
+<script src="js/main.js"></script>
+
+</html>

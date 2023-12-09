@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Watch Gallery</title>
+</head>
+
+<body>
+    <!-----------------header----------------->
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <p>Watch Gallery</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li id="cata"><a href="catagory.html">Catagory</a></li>
+                    <li><a href="womenscustom.html">Custom</a></li>
+
+                </ul>
+            </nav>
+            <img src="img/cart.png" width="50px" class="ctn">
+        </div>
+    </header>
+
+    <!-- -----------------login--------------- -->
+    <div class="main-login" style="background-image: url(img/login.jpg);" >
+        <div class="row">
+
+                <div class="login-box">
+                    <div class="box-heading">
+                        <p id="p-log">Login</p>
+                    </div>
+                    <form name="f1" action="" onsubmit="">
+                        <div class="box-cont">
+                            <p id="p-email">Email</p>
+                            <input type="email" id="in-email" class="input"  name="email-in" value="">
+                            <p id="p-email">Password</p>
+                            <input type="password" name="" id="in-password" class="input" name="pass">
+
+                        </div>
+                    </form>
+                    <div class="login-btn">
+                        <button type="submit" onclick="isValid()">Login</button>
+                    </div>
+                    <p class="sign-up" onclick="registor()">Sign up</p>
+                </div>
+
+
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <div class="foot-cont">
+            Copyright © 2023
+        </div>
+    </footer>
+
+    <script>
+
+        function isValid(){
+
+            var email = document.getElementById("in-email").value;
+            var pass = document.getElementById("in-password").value;
+            if(email=="piyushjaiswal123@gmail.com"&& pass=="12345" || email=="sameerkanekar123@gmail.com"&& pass=="12345"){
+                alert(" You successfull loged in !!");
+                window.location= "index.html"
+            }
+            else{
+                alert("Not Registered");
+            }
+
+        }
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Watch Gallery </title>
+</head>
+
+<body>
+    <!-----------------header----------------->
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                <p>Watch Gallery</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li id="cata"><a href="catagory.html" onclick="wOptSelected()">Catagory</a></li>
+                    <li><a href="womenscustom.html">Custom</a></li>
+
+                </ul>
+            </nav>
+            <img src="img/cart.png" width="50px" class="ctn">
+        </div>
+    </header>
+    <!-- ----------------cart------------- -->
+    <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+        
+        <div class="cart-container">
+
+           
+        </div>
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">Rs0</div>
+        </div>
+        <button class="buy-btn">Buy Now</button>
+        <img src="img/close.png" alt="" srcset="" class="cart-close">
+    </div>
+    
+   
+    <main>
+        <div class="title-cont"><h2>Catagory</h2></div>
+        <div class="catagory-main">
+
+            <div class="catagory-btns">
+                    <div class="row-1">
+                        <a href="Men'sSection.html"> <div class="catagory-items" id="c1">Men's Casual </div></a>
+                        <a href="Women'sSection.html"> <div class="catagory-items" id="c2">Women's Casual</div></a>
+                    </div>
+                    <div class="row-2">
+                        <a href="QuartzWatchSection.html"><div class="catagory-items" id="c3">Quartz</div></a>
+                        <a href="MechanicalSection.html"><div class="catagory-items" id="c4">Mechanical</div></a>
+                        <a href="AutomaticSection.html"><div class="catagory-items" id="c5">Automatic</div></a>
+                    </div>
+
+            </div>
+
+        </div>
+
+   </div>
+
+    </main>
+    <hr>
+    <footer>
+        <div class="foot-cont">
+            Copyright © 2023
+        </div>
+    </footer>
+</body>
+<!-- ---------------js link---------- -->
+<script src="js/main.js"></script>
+
+</html>
